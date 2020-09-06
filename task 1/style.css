@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff83e;
+    font-family: fantasy
+}
+
+.phone-block{
+    width: 500px;
+    height: 600px;
+    bottom: 0;
+    position: absolute;
+    left: 25%;
+    
+}
+.img-block{
+    background: url('http://pngimg.com/uploads/phone_hand/phone_hand_PNG16.png')no-repeat center ;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+.display{
+    position: absolute;
+    width: 215px;
+    height: 394px;
+    background: #26f595;
+    right: 90px;
+    bottom: 175px;
+    z-index: -1;
+}
+.bg{
+    background: #3b3b31
+}
+.timer{
+    color:#fff;
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    right: 175px;
+    
+}
+.timer h2{
+    font-size: 36px;
+}
+.timer p{
+    font-size: 14px;
+/*    font-weight: 300*/
+}
+
+/*https://data.whicdn.com/images/317598127/original.jpg*/
